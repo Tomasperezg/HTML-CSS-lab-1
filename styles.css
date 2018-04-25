@@ -73,6 +73,7 @@ h3 {
     opacity: .5;
     right: 90px;
     margin-left: 700px;
+    border-collapse: collapse;
 }
 #circle3 {
     background: rgba(247, 193, 162, 0.7);
@@ -89,4 +90,9 @@ h3 {
     border-radius: 50%;
     opacity: .5;
     margin-left: 925px;
+    z-index: -1;
+}
+.circles {
+  position: absolute;
+  margin-bottom: 90px;
 }
