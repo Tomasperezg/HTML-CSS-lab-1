@@ -1,0 +1,88 @@
+body {
+  background-color: #f9fafc;
+  font-family: open sans;
+  font-weight: normal,800;
+}
+.nav ul {
+  list-style: none;
+  background-color: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+.nav li {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.2em;
+      line-height: 40px;
+      height: 40px;
+      border-bottom: 1px solid #888;
+    }
+    .nav a {
+text-decoration: none;
+color: black;
+display: block;
+transition: .3s background-color;
+}
+
+.nav a:hover {
+background-color: black;
+color: white;
+}
+
+.nav a.active {
+background-color: none;
+color: white;
+cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+.nav li {
+width: 120px;
+border-bottom: none;
+height: 50px;
+line-height: 50px;
+font-size: 1.4em;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.block {
+  display: block;
+  padding-top: 90px;
+  margin-right: 600px;
+}
+p {
+  margin-left: 40px;
+  border-left-style: solid;
+  border-left-color: #69696a;
+
+}
+h3 {
+  font-size: 30px;
+  margin-left: 25px;
+}
+#circle {
+    background: rgba(247, 136, 167, 0.6);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: .5;
+}
+#circle3 {
+    background: rgba(247, 193, 162, 0.7);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: .5;
+}
+#circle2 {
+    background: rgba(207, 130, 213, 0.6);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: .5;
+}
