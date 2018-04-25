@@ -101,3 +101,13 @@ h3 {
   position: relative;
   margin-bottom: 90px;
 }
+header {
+  float: left;
+}
+.footer {
+  color: white;
+  background-color: black;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 500px;
+}
