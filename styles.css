@@ -71,6 +71,8 @@ h3 {
     height: 300px;
     border-radius: 50%;
     opacity: .5;
+    right: 90px;
+    margin-left: 700px;
 }
 #circle3 {
     background: rgba(247, 193, 162, 0.7);
@@ -78,6 +80,7 @@ h3 {
     height: 200px;
     border-radius: 50%;
     opacity: .5;
+    margin-left: 900px;
 }
 #circle2 {
     background: rgba(207, 130, 213, 0.6);
@@ -85,4 +88,5 @@ h3 {
     height: 100px;
     border-radius: 50%;
     opacity: .5;
+    margin-left: 925px;
 }
