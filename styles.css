@@ -35,10 +35,6 @@ body {
     right: 83px;
     left: 10px;
 }
-.circles {
-  position: relative;
-  margin-bottom: 90px;
-}
 header {
   display: flex;
   width: 100%;
